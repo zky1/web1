@@ -1,0 +1,68 @@
+html { 
+  background: url('/images/CHSQ-130511.jpg') no-repeat center center fixed; /*url is relative to style.css, so need / at start of URL*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  background:none; /*Bootstrap original bkgd is white*/
+}
+
+.center{
+	text-align: center;
+}
+
+.profile {
+	background: rgba(174, 205, 205, 0.85);
+  margin: 20px; padding: 30px;
+	border-right: 4px solid #253333;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom: 4px solid #253333;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	text-align: center;
+	}
+
+.profile h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 24px;
+}
+
+.profile h3 {
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 20px;
+}
+
+.profile img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  /*display: block;
+	margin-left: auto;
+  margin-right: auto; centering by equalising right/left margins*/
+}
+
+.events{
+	background: rgba(174, 205, 205, 0.85);
+	margin: 20px; padding: 30px;
+	border-right: 4px solid #253333;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom: 4px solid #253333;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.events h3 {
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 20px;
+}
