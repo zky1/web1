@@ -1,6 +1,5 @@
 html { 
-  background: url('/images/wood.jpg') no-repeat center center fixed; /*url is relative to style.css, so need / at start of URL*/
-  -webkit-background-size: cover;
+  background: url('/images/wood.jpg') no-repeat center center fixed; 
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
@@ -11,6 +10,7 @@ body {
   background:none; /*Bootstrap original bkgd is white*/
   font-family: 'Roboto', sans-serif;
   color: #050000;
+  margin: 0px;
 }
 
 a, a:visited {
@@ -27,25 +27,79 @@ input {
 	margin: 0px;
 }
 
-input[type="email"] {
-	width: 20em;
-}
-
-input[type="submit"] {
-	background-color: #050000;
-	color: white;
-}
 
 .center{
 	text-align: center;
 }
 
+.para {
+	width: 300px;
+	height: 444px;
+	display: table;
+	margin: 0 auto;
+	background: url('/images/para.png') no-repeat center top;
+	background-size: 300px 444px;
+	/*-webkit-transform: skew(-10deg);
+	   -moz-transform: skew(-10deg);
+	     -o-transform: skew(-10deg);*/
+	text-align: center;
+}
+
+.para input[type="name"] {
+	width: 14em;
+}
+
+.para input[type="email"] {
+	width: 10em;
+}
+
+.para input[type="submit"] {
+	background-color: #050000;
+	color: white;
+	width: 4em;
+}
+
+.para h1 {
+	text-align: center;
+	/*font-family: 'Gentium Book Basic', serif;*/
+	font-family: 'Roboto', sans-serif;
+	font-size: 32px;
+	/*font-weight: bold;
+	margin-top: 70px;
+	line-height: 80px;*/
+}
+
+.para h2 {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	/*font-weight: bold;*/
+	/*line-height: 20px;*/
+}
+
+.para h3 {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	/*line-height: 20px;*/
+}
+
+.para img {
+  width: 200px;
+  height: 200px;
+  /*border-radius: 50px;
+  display: block;
+	margin-left: auto;
+  margin-right: auto; centering by equalising right/left margins*/
+}
+
 /*Originally used rgba(174, 205, 205, 0.85)*/
 .profile {
 	background: rgba(255, 255, 255, 0.6);
-	/*width: 300px;
-	height: 300px;*/
-  margin: 60px;
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
   padding: 20px;
 	border-right: 4px solid #050000;
 	border-top-left-radius: 500px;
@@ -88,11 +142,6 @@ input[type="submit"] {
   /*display: block;
 	margin-left: auto;
   margin-right: auto; centering by equalising right/left margins*/
-}
-
-.form{
-	text-align: center;
-	width: 100%;
 }
 
 .events{
